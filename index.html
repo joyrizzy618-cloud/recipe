@@ -1,0 +1,208 @@
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>WIRAFUKO - Menú Digital</title>
+
+    <!-- TIPOGRAFIAS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Roboto:wght@400;500;700&family=Marcellus&display=swap" rel="stylesheet">
+
+    <!-- ESTILOS -->
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+
+    <!-- ENCABEZADO -->
+    <header class="encabezado">
+
+        <h1>WIRAFUKO</h1>
+
+        <p>Un rincon campestre rodeado de naturaleza, diseñado para desconectarte y disfrutar en familia. 
+            Rendimos homenaje a la gastronomia andina con el autentico cuy asado como gran protagonista
+            preparado con un sazon tradicional en un ambiente de paz y al aire puro.
+        </p>
+
+    </header>
+
+
+    <!-- CONTENIDO PRINCIPAL -->
+    <main>
+
+        <!-- CATEGORIAS -->
+        <section class="categorias">
+
+            <button class="btn-categoria activo" data-categoria="todos">
+                Todos
+            </button>
+
+            <button class="btn-categoria" data-categoria="hamburguesas">
+                Hamburguesas
+            </button>
+
+            <button class="btn-categoria" data-categoria="pizzas">
+                Pizzas
+            </button>
+
+            <button class="btn-categoria" data-categoria="bebidas">
+                Bebidas
+            </button>
+
+            <button class="btn-categoria" data-categoria="postres">
+                Postres
+            </button>
+
+        </section>
+
+
+        <!-- PRODUCTOS -->
+        <section class="productos">
+
+            <h2>Nuestro menu</h2>
+
+            <div class="contenedor-productos">
+
+
+                <!-- PRODUCTO 1 -->
+                <article class="producto" data-categoria="hamburguesas">
+
+                    <img src="img/hamburguesa1.jpg" alt="Hamburguesa especial">
+
+                    <h3>Hamburguesa especial</h3>
+
+                    <p>Carne, queso, lechuga y tomate.</p>
+
+                    <span>$5.50</span>
+
+                </article>
+
+                <!-- Hamburguesa 2 -->
+
+                <article class="producto" data-categoria="hamburguesas">
+
+                    <img src="img/hamburguesa2.jpg" alt="Hamburguesa de pollo">
+
+                    <h3>Hamburguesa de pollo</h3>
+
+                    <p>Pollo empanado, lechuga y tomate.</p>
+
+                    <span>$6.00</span>
+
+                </article>
+
+                <!-- PRODUCTO 2 -->
+                <article class="producto" data-categoria="pizzas">
+
+                    <img src="img/Pizza1.jpg"
+                         alt="Pizza familiar">
+
+                    <h3>Pizza familiar</h3>
+
+                    <p>Queso, salsa y pepperoni.</p>
+
+                    <span>$10.00</span>
+
+                </article>
+                
+                <!-- Pizza 2 -->
+                <article class="producto" data-categoria="pizzas">
+
+                    <img src="img/PIzza2.jpg"
+                         alt="Pizza personal">
+
+                    <h3>Pizza personal</h3>
+
+                    <p>Queso, salsa y pepperoni.</p>
+
+                    <span>$10.00</span>
+
+                </article>
+                
+                <!-- PRODUCTO 3 -->
+                <article class="producto" data-categoria="bebidas">
+
+                    <img src="img/Bebida1.jpg"
+                         alt="Batido de fresa">
+
+                    <h3>Batido de fresa</h3>
+
+                    <p>Leche y fresas naturales.</p>
+
+                    <span>$2.50</span>
+
+                </article>
+
+                <!-- Bebida 2 -->
+                <article class="producto" data-categoria="bebidas">
+
+                    <img src="img/Bebida2.jpg"
+                         alt="Cafe">
+
+                    <h3>Cafe</h3>
+
+                    <p>Cafe recién hecho.</p>
+
+                    <span>$2.50</span>
+
+                </article>
+
+                <!-- PRODUCTO 4 -->
+                <article class="producto" data-categoria="postres">
+
+                    <img src="img/Postre1.jpg"
+                         alt="Cheesecake de fresa">
+
+                    <h3>Cheesecake de fresa</h3>
+
+                    <p>Deliciosa cheesecake de fresa.</p>
+
+                    <span>$3.00</span>
+
+                </article>
+
+                <!-- Poestre 2-->
+                <article class="producto" data-categoria="postres">
+
+                    <img src="img/Postre2.jpg"
+                         alt="Cheesecake de mora">
+
+                    <h3>Cheesecake de mora</h3>
+
+                    <p>Deliciosa cheesecake de mora.</p>
+
+                    <span>$3.00</span>
+
+                </article>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- PIE DE PAGINA -->
+    <footer>
+
+        <p>
+            Gracias por visitarnos
+            yanahuaico-Huancavilca
+                098121154454545
+        </p>
+
+    </footer>
+
+
+    <!-- CONEXION CON JAVASCRIPT -->
+    <script src="funciones.js"></script>
+
+</body>
+
+</html>
